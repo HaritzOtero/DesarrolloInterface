@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#4d81a2">
 
     <TextView
         android:id="@+id/txtTestua"
@@ -12,10 +16,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.355" />
 
     <Button
         android:id="@+id/btnAgurra"
@@ -24,7 +28,11 @@
         android:text="Klik Hemen"
         tools:layout_editor_absoluteX="143dp"
         tools:layout_editor_absoluteY="341dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/botoia"
+        android:textColor="@drawable/txtbotoia"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

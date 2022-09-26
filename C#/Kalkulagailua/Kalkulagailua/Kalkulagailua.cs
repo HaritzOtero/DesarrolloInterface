@@ -7,15 +7,19 @@ using System.Threading.Tasks;
 
 namespace Kalkulagailua
 {
-    internal class Kalkuagailua
+    internal class Kalkulagailua
     {
         public float Zenbaki1 { get; set; }
         public float Zenbaki2 { get; set; }
 
-        public Kalkuagailua(float zenbaki1, float zenbaki2)
+        public Kalkulagailua(float zenbaki1, float zenbaki2)
         {
             Zenbaki1 = zenbaki1;
             Zenbaki2 = zenbaki2;
+        }
+
+        public Kalkulagailua()
+        {
         }
 
         public float Gehiketa()

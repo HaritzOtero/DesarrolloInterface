@@ -35,6 +35,8 @@
             this.esaldi4 = new System.Windows.Forms.Button();
             this.esaldi3 = new System.Windows.Forms.Button();
             this.lotu = new System.Windows.Forms.Button();
+            this.btnGarbitu = new System.Windows.Forms.Button();
+            this.btnIrten = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // esaldiTxtBox
@@ -67,7 +69,7 @@
             // 
             // esaldi5
             // 
-            this.esaldi5.Location = new System.Drawing.Point(348, 337);
+            this.esaldi5.Location = new System.Drawing.Point(348, 304);
             this.esaldi5.Name = "esaldi5";
             this.esaldi5.Size = new System.Drawing.Size(102, 44);
             this.esaldi5.TabIndex = 3;
@@ -77,7 +79,7 @@
             // 
             // esaldi4
             // 
-            this.esaldi4.Location = new System.Drawing.Point(77, 337);
+            this.esaldi4.Location = new System.Drawing.Point(77, 304);
             this.esaldi4.Name = "esaldi4";
             this.esaldi4.Size = new System.Drawing.Size(99, 44);
             this.esaldi4.TabIndex = 4;
@@ -97,7 +99,7 @@
             // 
             // lotu
             // 
-            this.lotu.Location = new System.Drawing.Point(627, 337);
+            this.lotu.Location = new System.Drawing.Point(627, 304);
             this.lotu.Name = "lotu";
             this.lotu.Size = new System.Drawing.Size(90, 44);
             this.lotu.TabIndex = 6;
@@ -105,11 +107,33 @@
             this.lotu.UseVisualStyleBackColor = true;
             this.lotu.Click += new System.EventHandler(this.lotu_Click);
             // 
+            // btnGarbitu
+            // 
+            this.btnGarbitu.Location = new System.Drawing.Point(228, 390);
+            this.btnGarbitu.Name = "btnGarbitu";
+            this.btnGarbitu.Size = new System.Drawing.Size(95, 34);
+            this.btnGarbitu.TabIndex = 7;
+            this.btnGarbitu.Text = "Garbitu";
+            this.btnGarbitu.UseVisualStyleBackColor = true;
+            this.btnGarbitu.Click += new System.EventHandler(this.btnGarbitu_Click);
+            // 
+            // btnIrten
+            // 
+            this.btnIrten.Location = new System.Drawing.Point(496, 390);
+            this.btnIrten.Name = "btnIrten";
+            this.btnIrten.Size = new System.Drawing.Size(89, 34);
+            this.btnIrten.TabIndex = 8;
+            this.btnIrten.Text = "Irten";
+            this.btnIrten.UseVisualStyleBackColor = true;
+            this.btnIrten.Click += new System.EventHandler(this.btnIrten_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnIrten);
+            this.Controls.Add(this.btnGarbitu);
             this.Controls.Add(this.lotu);
             this.Controls.Add(this.esaldi3);
             this.Controls.Add(this.esaldi4);
@@ -133,5 +157,7 @@
         private Button esaldi4;
         private Button esaldi3;
         private Button lotu;
+        private Button btnGarbitu;
+        private Button btnIrten;
     }
 }

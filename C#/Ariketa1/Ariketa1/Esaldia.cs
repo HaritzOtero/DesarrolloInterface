@@ -24,8 +24,8 @@ namespace Ariketa1
 
         public string Lotu()
         {
-            esaldiOsoa = this.esaldiOsoa + Hitza;
-            return esaldiOsoa;
+            this.esaldiOsoa = esaldiOsoa + Hitza;
+            return this.esaldiOsoa;
         }
 
     }

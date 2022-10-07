@@ -33,9 +33,9 @@
             // 
             // grafikoa1
             // 
-            this.grafikoa1.Location = new System.Drawing.Point(-3, -5);
+            this.grafikoa1.Location = new System.Drawing.Point(-1, 12);
             this.grafikoa1.Name = "grafikoa1";
-            this.grafikoa1.Size = new System.Drawing.Size(684, 423);
+            this.grafikoa1.Size = new System.Drawing.Size(800, 450);
             this.grafikoa1.TabIndex = 0;
             // 
             // Form1
@@ -46,6 +46,7 @@
             this.Controls.Add(this.grafikoa1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

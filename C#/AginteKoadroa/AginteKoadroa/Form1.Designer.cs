@@ -47,6 +47,7 @@
             this.labelSalmentak = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.userControl11 = new SalmentaGehiengoBezeroa.UserControl1();
             this.groupBoxBezeroakGuztira.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxSaltzaileakGuztira.SuspendLayout();
@@ -227,7 +228,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(27, 19);
+            this.chart1.Location = new System.Drawing.Point(19, 19);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
@@ -239,12 +240,20 @@
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(710, 289);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(307, 308);
+            this.userControl11.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1080, 650);
+            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxSalmentak);
             this.Controls.Add(this.groupBoxSaltzaileakGuztira);
@@ -288,6 +297,7 @@
         private System.Windows.Forms.Label labelSalmentak;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private SalmentaGehiengoBezeroa.UserControl1 userControl11;
     }
 }
 

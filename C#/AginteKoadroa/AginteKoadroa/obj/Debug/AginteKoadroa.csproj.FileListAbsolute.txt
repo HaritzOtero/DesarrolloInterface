@@ -37,3 +37,5 @@ C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AginteKoad
 C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AginteKoadroa\AginteKoadroa\obj\Debug\AginteKoadroa.csproj.CopyComplete
 C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AginteKoadroa\AginteKoadroa\obj\Debug\AginteKoadroa.exe
 C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AginteKoadroa\AginteKoadroa\obj\Debug\AginteKoadroa.pdb
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AginteKoadroa\AginteKoadroa\bin\Debug\SalmentaGehiengoBezeroa.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AginteKoadroa\AginteKoadroa\bin\Debug\SalmentaGehiengoBezeroa.pdb

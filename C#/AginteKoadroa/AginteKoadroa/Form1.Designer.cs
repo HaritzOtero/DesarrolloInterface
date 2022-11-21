@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
@@ -48,6 +49,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.userControl11 = new SalmentaGehiengoBezeroa.UserControl1();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBoxBezeroakGuztira.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxSaltzaileakGuztira.SuspendLayout();
@@ -89,6 +92,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1, "Hau bezeroak guztira jakiteko da.");
             // 
             // labelBezeroakGuztira
             // 
@@ -226,6 +230,7 @@
             chartArea1.BackColor = System.Drawing.Color.DimGray;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
+            this.helpProvider1.SetHelpString(this.chart1, "Saltzaile bakoitzak (X ardatza) Dituen bezeroak (Y ardatza)");
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(19, 19);
@@ -236,6 +241,7 @@
             series1.Name = "Series1";
             series1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.BrightPastel;
             this.chart1.Series.Add(series1);
+            this.helpProvider1.SetShowHelp(this.chart1, true);
             this.chart1.Size = new System.Drawing.Size(508, 300);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -259,7 +265,10 @@
             this.Controls.Add(this.groupBoxSaltzaileakGuztira);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBoxBezeroakGuztira);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -298,6 +307,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private SalmentaGehiengoBezeroa.UserControl1 userControl11;
+        private System.Windows.Forms.HelpProvider helpProvider1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

@@ -5,16 +5,20 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AginteKoadroa", "AginteKoadroa\AginteKoadroa.csproj", "{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_AginteKoadroa", "Setup_AginteKoadroa\Setup_AginteKoadroa.vdproj", "{B593E842-F0AE-4D8B-BEAF-D7174F57FAB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E8D05C2-E14F-4CD4-947C-26DE29C89A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B593E842-F0AE-4D8B-BEAF-D7174F57FAB5}.Debug|Any CPU.ActiveCfg = Debug
+		{B593E842-F0AE-4D8B-BEAF-D7174F57FAB5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

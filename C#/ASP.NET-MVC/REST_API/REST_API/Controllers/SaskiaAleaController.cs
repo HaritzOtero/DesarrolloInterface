@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using REST_API.Services;
 using REST_API.Models;
+using REST_API.Services;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace REST_API.Controllers
 {
@@ -27,10 +24,10 @@ namespace REST_API.Controllers
         {
             return await _saskiaAleaService.GetSaskiaAleak();
         }
-        
+
         // GET: api/SaskiaAlea/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<SaskiaAlea>> GetSaskiaAlea(int id)
+        public async Task<ActionResult<List<SaskiaAlea>>> GetSaskiaAlea(string id)
         {
             return await _saskiaAleaService.GetSaskiaAlea(id);
         }
@@ -74,7 +71,7 @@ namespace REST_API.Controllers
 
         // DELETE: api/SaskiaAlea/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteSaskiaAlea(int id)
+        public async Task<IActionResult> DeleteSaskiaAlea(string id)
         {
             var saskiaAlea = await _saskiaAleaService.GetSaskiaAlea(id);
             if (saskiaAlea == null)
@@ -82,7 +79,7 @@ namespace REST_API.Controllers
                 return NotFound();
             }
 
-            await _saskiaAleaService.DeleteSaskiaAlea(saskiaAlea);
+            //await _saskiaAleaService.DeleteSaskiaAlea(saskiaAlea);
 
             return NoContent();
         }

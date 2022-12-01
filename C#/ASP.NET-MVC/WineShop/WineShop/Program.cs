@@ -14,9 +14,18 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+//Saioak erabiltzeko
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
-//Gurer zerbitzua
+//Gurer zerbitzuak
 builder.Services.AddScoped<IArdoaService, ArdoaService>();
+builder.Services.AddScoped<ISaskiaService, SaskiaService>();
 
 var app = builder.Build();
 
@@ -39,6 +48,9 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+//Saioak
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

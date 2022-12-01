@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using REST_API.Data;
+using REST_API.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
-using REST_API.Models;
-using REST_API.Data;
-using System.Runtime.CompilerServices;
 
 namespace REST_API.Services
 {
@@ -22,10 +19,10 @@ namespace REST_API.Services
         {
             return await _context.SaskiaAlea.ToListAsync();
         }
-        public async Task<SaskiaAlea> GetSaskiaAlea(int id)
+        public async Task<List<SaskiaAlea>> GetSaskiaAlea(string id)
         {
             return await _context.SaskiaAlea
-                .SingleOrDefaultAsync(a => a.Id == id);
+                .Where(a => a.SaskiaId == id).ToListAsync();
         }
         public async Task PutSaskiaAlea(SaskiaAlea saskiaAlea)
         {

@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using REST_API.Models;
-using REST_API.Services;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using REST_API.Services;
+using REST_API.Models;
 
 namespace REST_API.Controllers
 {
@@ -24,7 +27,7 @@ namespace REST_API.Controllers
         {
             return await _saskiaAleaService.GetSaskiaAleak();
         }
-
+        
         // GET: api/SaskiaAlea/5
         [HttpGet("{id}")]
         public async Task<ActionResult<List<SaskiaAlea>>> GetSaskiaAlea(string id)
@@ -34,9 +37,9 @@ namespace REST_API.Controllers
         // PUT: api/SaskiaAlea/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutSaskiaAlea(int id, SaskiaAlea saskiaAlea)
+        public async Task<IActionResult> PutSaskiaAlea(string id, SaskiaAlea saskiaAlea)
         {
-            if (id != saskiaAlea.Id)
+            if (id != saskiaAlea.SaskiaId)
             {
                 return BadRequest();
             }
@@ -47,7 +50,7 @@ namespace REST_API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!SaskiaAleaExists(id))
+                if (!SaskiaAleaExists(saskiaAlea.Id))
                 {
                     return NotFound();
                 }

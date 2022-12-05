@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I1hYFxV2EtyRSL9V/wDaMnLQFGbe8SZ2wT1wVM5xS9x9943JwyHDDle5Grm2INCcp2ofAGBPCrNNN715Eatb+g==",
+  "dgSpecHash": "jWO+eABFN1x0d2rcMaIjlGByIA9vFkBrloPRtQbnfGEOX/VVhvMQ9F2I/sRBj6NM8aSYApen+UOxMfIDUXs2Kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\otero.haritz\\Desktop\\DAM-2HaritzOtero\\DesarrolloInterface\\C#\\ASP.NET-MVC\\REST_API\\REST_API\\REST_API.csproj",
   "expectedPackageFiles": [
@@ -133,11 +133,7 @@
     "C:\\Users\\otero.haritz\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\otero.haritz\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\otero.haritz\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\otero.haritz\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\otero.haritz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\otero.haritz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\otero.haritz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\otero.haritz\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\otero.haritz\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

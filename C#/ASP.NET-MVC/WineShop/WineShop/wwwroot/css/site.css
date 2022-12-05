@@ -1,26 +1,25 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 #searchForm {
     display: flex;
-    justify-content:center;
-
+    justify-content: center;
 }
 
 .bg-menua {
@@ -35,13 +34,13 @@ body {
     position: static;
 }
 
-.full-width.dropdown > .dropdown-menu {
-    left: 0;
-}
+    .full-width.dropdown > .dropdown-menu {
+        left: 0;
+    }
 
-.full-width.dropdown > .dropdown-menu > li > a {
-    white-space: normal;
-}
+        .full-width.dropdown > .dropdown-menu > li > a {
+            white-space: normal;
+        }
 
 @media screen and (min-width:480px) {
     .dropdown:hover .dropdown-menu {
@@ -83,7 +82,6 @@ body {
     .col-item .photo img {
         margin: 0 auto;
         /*width: 100%;*/
-
     }
 
     .col-item .irudia {
@@ -173,5 +171,18 @@ body {
 }
 
 .tachado {
-text-decoration: line-through;
+    text-decoration: line-through;
 }
+
+.altuera {
+    max-height: 100px;
+}
+
+.btn-borgona {
+    background-color: #981212;
+}
+
+    .btn-borgona:hover {
+        background-color: #f2c5c5;
+        color: #FFF;
+    }

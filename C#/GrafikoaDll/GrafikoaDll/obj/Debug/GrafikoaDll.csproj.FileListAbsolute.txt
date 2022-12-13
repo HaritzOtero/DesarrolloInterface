@@ -1,8 +1,0 @@
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\bin\Debug\GrafikoaDll.dll
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\bin\Debug\GrafikoaDll.pdb
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\obj\Debug\GrafikoaDll.csproj.AssemblyReference.cache
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\obj\Debug\GrafikoaDll.Grafikoa.resources
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\obj\Debug\GrafikoaDll.csproj.GenerateResource.cache
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\obj\Debug\GrafikoaDll.csproj.CoreCompileInputs.cache
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\obj\Debug\GrafikoaDll.dll
-C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\GrafikoaDll\GrafikoaDll\obj\Debug\GrafikoaDll.pdb

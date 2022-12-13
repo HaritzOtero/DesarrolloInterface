@@ -1,0 +1,8 @@
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\bin\Debug\SalmentaGehiengoBezeroa.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\bin\Debug\SalmentaGehiengoBezeroa.pdb
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\obj\Debug\SalmentaGehiengoBezeroa.csproj.AssemblyReference.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\obj\Debug\SalmentaGehiengoBezeroa.UserControl1.resources
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\obj\Debug\SalmentaGehiengoBezeroa.csproj.GenerateResource.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\obj\Debug\SalmentaGehiengoBezeroa.csproj.CoreCompileInputs.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\obj\Debug\SalmentaGehiengoBezeroa.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\SalmentaGehiengoBezeroa\SalmentaGehiengoBezeroa\obj\Debug\SalmentaGehiengoBezeroa.pdb

@@ -1,0 +1,6 @@
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\KaixoDll\KaixoDll\bin\Debug\KaixoDll.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\KaixoDll\KaixoDll\bin\Debug\KaixoDll.pdb
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\KaixoDll\KaixoDll\obj\Debug\KaixoDll.csproj.AssemblyReference.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\KaixoDll\KaixoDll\obj\Debug\KaixoDll.csproj.CoreCompileInputs.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\KaixoDll\KaixoDll\obj\Debug\KaixoDll.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\KaixoDll\KaixoDll\obj\Debug\KaixoDll.pdb

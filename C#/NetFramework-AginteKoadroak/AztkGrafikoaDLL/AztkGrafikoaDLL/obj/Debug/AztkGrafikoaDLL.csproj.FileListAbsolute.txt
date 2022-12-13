@@ -1,0 +1,9 @@
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\bin\Debug\AztkGrafikoaDLL.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\bin\Debug\AztkGrafikoaDLL.pdb
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.csproj.AssemblyReference.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.Properties.Resources.resources
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.UserControl1.resources
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.csproj.GenerateResource.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.csproj.CoreCompileInputs.cache
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.dll
+C:\Users\otero.haritz\Desktop\DAM-2HaritzOtero\DesarrolloInterface\C#\AztkGrafikoaDLL\AztkGrafikoaDLL\obj\Debug\AztkGrafikoaDLL.pdb

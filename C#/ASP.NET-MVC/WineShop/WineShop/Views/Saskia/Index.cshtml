@@ -29,11 +29,11 @@
 </td>
 <td>
     <div>
-    <a href="" class="RemoveLink" data-id="@item.ArdoaId">
+        <a href="" class="RemoveLink" data-id="@item.ArdoaId" data-kantitatea="@item.Kantitatea" data-salneurria="@item.Salneurria">
     <i class="fas fa-cart-arrow-down"></i>
     </a>
     <span id="item-count-@item.ArdoaId">@item.Kantitatea</span>
-    <a href="" class="AddLink" data-id="@item.ArdoaId" data-kantitatea="@item.Kantitatea" data-salneurria="@item.Salneurria">
+    <a href="" class="AddLink" data-id="@item.ArdoaId">
     <i class="fas fa-cart-plus"></i>
     </a>
     </div>
@@ -53,7 +53,7 @@ saskiaguztira += guztira;}
 <a class="btn btn-borgona text-light" asp-controller="Ordaindu" asp-action="Index">Ordaindu</a></td>
 <td></td>
 <td></td>
-<td class="float-right"><p>Guztira: <span id="cart-total">saskiaguztira.ToString("C2", CultureInfo.CurrentCulture)</span></p></td>
+<td class="float-right"><p>Guztira: <span id="cart-total">@saskiaguztira.ToString("C2", CultureInfo.CurrentCulture)</span></p></td>
 </tr>
 </table>
 </div>

@@ -44,6 +44,28 @@ namespace WineShop.Controllers
             return RedirectToAction("Index", new { id = cart.SaskiaId });
         }
 
+        public async Task<IActionResult> SaskiaKendu(int id)
+        {
+            var cart = Saskia.SaskiaLortu(this.HttpContext); //aurretik sortu dugun Saskia klasea erabiliz
+            await _saskiaService.SaskiaKendu(id, cart.SaskiaId); //zerbitzu berrian karritoan gehitzeko
+            return RedirectToAction("Index", new { id = cart.SaskiaId });
+        }
+
+        public async Task<IActionResult> SaskiaKenduAjax(int id, int kantitatea, float salneurria, float guztira)
+        {
+            var cart = Saskia.SaskiaLortu(this.HttpContext);
+            await _saskiaService.SaskiaKendu(id, cart.SaskiaId);
+            kantitatea--;
+            var results = new
+            {
+                mezua = "Zure saskia eguneratu da",
+                kantitatea = kantitatea,
+                salneurria = salneurria,
+                guztira = guztira
+            };
+            return Json(results);
+        }
+
         public async Task<IActionResult> SaskiaGehituAjax(int id, int kantitatea, float salneurria, float guztira)
         {
             var cart = Saskia.SaskiaLortu(this.HttpContext);
@@ -58,6 +80,8 @@ namespace WineShop.Controllers
             };
             return Json(results);
         }
+
+
 
 
     }

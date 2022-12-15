@@ -61,7 +61,7 @@ namespace WineShop.Controllers
                 mezua = "Zure saskia eguneratu da",
                 kantitatea = kantitatea,
                 salneurria = salneurria,
-                guztira = guztira
+                guztira = guztira - salneurria - salneurria,
             };
             return Json(results);
         }
